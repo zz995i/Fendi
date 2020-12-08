@@ -1,0 +1,58 @@
+/* -------news */
+
+.news {
+    border-top: 1px solid #eeedeb;
+    padding: 30px 15px 0;
+}
+
+.news p {
+    line-height: 2;
+}
+
+.news .news-phone {
+    width: 620px;
+    height: 38px;
+    border: 0;
+    background: #eeedeb;
+    text-indent: 10px;
+}
+
+.news .news-phone:focus {
+    outline: 1px solid #f9b949;
+}
+
+
+/* -----copyright */
+
+.copyright {
+    margin-top: 30px;
+    border-top: 1px solid #eeedeb;
+    padding: 30px 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright li {
+    padding: 10px 0;
+}
+
+.copyright ul li:first-child {
+    font-weight: bold;
+}
+
+.copyright a {
+    color: #212121;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
+
+.icongongzhonghao {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.iconweibo {
+    font-size: 20px;
+}

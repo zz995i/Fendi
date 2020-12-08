@@ -1,0 +1,104 @@
+.register-main {
+    width: 100%;
+}
+
+.reagister-content {
+    width: 640px;
+    margin: 40px auto;
+}
+
+.reagister-content h1 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.reagister-content .c-p1 {
+    margin-bottom: 30px;
+}
+
+.input-box-mobile {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icom {
+    width: 100%;
+    background: #eeedeb;
+    border: 0;
+    text-indent: 10px;
+    height: 38px;
+    line-height: 38px;
+    padding: 1px 2px;
+    box-sizing: border-box;
+}
+
+.icom:focus {
+    outline: 1px solid #f9b949;
+}
+
+.input-box-l img {
+    display: block;
+    width: 90px;
+    height: 38px;
+    margin-left: 15px;
+}
+
+.checkinput {
+    margin-bottom: 20px;
+}
+
+.checkinput input {
+    height: 38px;
+    width: 195px;
+}
+
+.checkinput span {
+    display: block;
+    background: #f9b949;
+    width: 90px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.input-box-pass {
+    margin-bottom: 20px;
+}
+
+.input-box-pass input {
+    width: 300px;
+}
+
+.input-box-pass .pass-content {
+    margin-left: 40px;
+}
+
+.input-box-name {
+    margin-bottom: 20px;
+}
+
+.input-box-name input {
+    width: 300px;
+}
+
+.register-submit {
+    background: #f9b949;
+    line-height: 30px;
+    text-align: center;
+    width: 160px;
+    border: 0;
+    font-size: 12px;
+    outline: none;
+}
+
+.register-submit:hover,
+.fs-yzm:hover {
+    background: #faddab;
+    cursor: pointer;
+}

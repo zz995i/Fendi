@@ -1,0 +1,158 @@
+/* ---------kong */
+
+.kong {
+    margin-top: 120px;
+}
+
+
+/* --------------header */
+
+.fixed {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    background: #ffffff;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    border-top: 4px solid #f9b949;
+    border-bottom: 1px solid #eeedeb;
+    font-size: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #212121;
+    position: relative;
+    /* position: fixed; */
+}
+
+header .header-top {
+    overflow: hidden;
+    padding: 20px 15px 0;
+}
+
+header .header-top div {
+    line-height: 16px;
+    height: 16px;
+}
+
+.icondianhua {
+    font-size: 20px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.iconxia {
+    font-size: 12px;
+}
+
+.iconMagnifier,
+.icongouwudai {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+header li {
+    float: left;
+    padding: 0 10px;
+    /* color: red; */
+}
+
+header li a {
+    color: #212121;
+    font-size: 12px;
+}
+
+header .header-logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 20%;
+}
+
+header .pc_logo {
+    width: 100px;
+    height: 30px;
+}
+
+header .header-nav {
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -160px;
+}
+
+header .header-nav ul {
+    width: 100%;
+    text-align: center;
+}
+
+header .header-nav li {
+    padding: 0 30px;
+}
+
+
+/* -------news */
+
+.news {
+    border-top: 1px solid #eeedeb;
+    padding: 30px 15px 0;
+}
+
+.news p {
+    line-height: 2;
+}
+
+.news .news-phone {
+    width: 620px;
+    height: 38px;
+    border: 0;
+    background: #eeedeb;
+    text-indent: 10px;
+}
+
+.news .news-phone:focus {
+    outline: 1px solid #f9b949;
+}
+
+
+/* -----copyright */
+
+.copyright {
+    margin-top: 30px;
+    border-top: 1px solid #eeedeb;
+    padding: 30px 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright li {
+    padding: 10px 0;
+}
+
+.copyright ul li:first-child {
+    font-weight: bold;
+}
+
+.copyright a {
+    color: #212121;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
+
+.icongongzhonghao {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.iconweibo {
+    font-size: 20px;
+}

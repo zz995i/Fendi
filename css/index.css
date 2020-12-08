@@ -1,0 +1,185 @@
+/* ------------banner */
+
+.banner {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.banner .banner-img1 {
+    width: 100%;
+    height: 558px;
+}
+
+.jiari {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.banner-ts a {
+    display: block;
+    width: 160px;
+    margin: 20px auto 30px;
+    color: #212121;
+}
+
+.banner-ts .banner-box {
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    /* margin: 20px 20px; */
+    background: #f9b949;
+    font-weight: 700;
+}
+
+.banner-ts .banner-box:hover {
+    background: #fddda5;
+}
+
+.banner .banner-img2 {
+    width: 100%;
+    height: 280px;
+}
+
+
+/* ------------list */
+
+.list {
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.list .jx {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.list .rotation-chart {
+    position: relative;
+    overflow: hidden;
+}
+
+.list .rotation-chart ul img {
+    width: 340px;
+    height: 340px;
+}
+
+.list .rotation-chart ul {
+    /* display: flex;
+    justify-content: space-around; */
+    width: 5000px;
+    height: 440px;
+}
+
+.list .rotation-chart li {
+    font-size: 12px;
+    float: left;
+    margin-right: 30px;
+}
+
+.circle span {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border: 1px solid #f9b949;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.circle .circle-c {
+    background: #f9b949;
+}
+
+.list .rotation-chart i {
+    position: absolute;
+    font-size: 50px;
+    z-index: 1;
+    cursor: pointer;
+    top: 35%;
+}
+
+.rotation-chart i:hover {
+    color: #f9b949;
+}
+
+.list .rotation-chart h4 {
+    margin-top: 10px;
+}
+
+.list .rotation-chart .list-p1 {
+    line-height: 28px;
+}
+
+.list .rotation-chart .list-p2 {
+    margin-top: 10px;
+}
+
+.list .rotation-chart .iconzuo {
+    left: 0;
+}
+
+.rotation-chart ul {
+    position: relative;
+}
+
+.list .rotation-chart .iconyou {
+    right: 0;
+}
+
+.list .list-imgs>div {
+    width: 49%;
+}
+
+.list .list-imgs a {
+    display: block;
+    overflow: hidden;
+}
+
+.list .list-imgs img {
+    width: 100%;
+}
+
+.list-img-r:hover,
+.list-img-l:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    /* display: none; */
+}
+
+
+/* ------item */
+
+.item img {
+    width: 340px;
+    height: 340px;
+}
+
+.item {
+    width: 100%;
+    box-sizing: border-box;
+    /* padding: 0 15px; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.item a:nth-of-type(2) {
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    color: #212121;
+}
+
+.item p {
+    padding: 20px 0;
+    font-size: 22px;
+}

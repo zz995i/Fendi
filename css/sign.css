@@ -1,0 +1,178 @@
+.sign-main {
+    width: 100%;
+}
+
+.sign-content {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 40px 140px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.sign-content h2 {
+    margin-bottom: 20px;
+}
+
+.fendiLogin,
+.fendiRegister {
+    flex: 1;
+}
+
+.titleBox {
+    width: 100%;
+    display: flex;
+}
+
+.titleBox span {
+    display: inline-block;
+    font-size: 18px;
+    color: #ccc;
+    margin: 0 40px 20px 0;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    border-bottom: 4px solid transparent;
+}
+
+.titleBox .color-f {
+    border-bottom: 4px solid #f9b949;
+}
+
+
+/* ------fendiRegister */
+
+.fendiRegister p {
+    margin-bottom: 30px;
+}
+
+.fendiRegister i {
+    font-size: 16px;
+    color: #000;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.fendiRegister li {
+    line-height: 2;
+}
+
+.fendiRegister input {
+    background: #f9b949;
+    border: 0;
+    width: 160px;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.column-p1,
+.column-p3 {
+    margin-bottom: 30px;
+}
+
+.column-p2 {
+    margin-bottom: 10px;
+}
+
+.icom {
+    width: 90%;
+    background: #eeedeb;
+    border: 0;
+    text-indent: 10px;
+    height: 38px;
+    line-height: 38px;
+    /* padding: 1px 2px; */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.icom:focus {
+    outline: 1px solid #f9b949;
+}
+
+.i-yz {
+    width: 60%;
+}
+
+.btn-middle {
+    width: 120px;
+    line-height: 38px;
+    background: #f9b949;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    margin-left: 15px;
+}
+
+.btn-small {
+    width: 120px;
+    line-height: 30px;
+    background: #f9b949;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+}
+
+.column-box:last-child {
+    display: none;
+}
+
+.i-pass {
+    width: 90%;
+}
+
+
+/* mask */
+
+.m-mask {
+    background: #ccc;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: .4;
+    z-index: 20;
+    display: none;
+}
+
+.msg {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 40;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -125px;
+    display: none;
+}
+
+.msg div {
+    margin-top: 20px;
+    text-align: center
+}
+
+.m-submit {
+    width: 120px;
+    line-height: 30px;
+    background: #f9b949;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.msg i {
+    cursor: pointer;
+}
